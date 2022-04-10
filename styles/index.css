@@ -5,9 +5,16 @@ body {
 }
 
 header {
-  display: flex;
-  justify-content: space-around;
   margin: 10px 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-container {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .myName {
@@ -23,16 +30,50 @@ header {
 }
 
 .menu li a {
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 5px 10px;
-    transition: 0.3s;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 20px ;
+  transition: 0.5s;
 }
 
 .menu li a:hover {
-    border: 1px solid white;
-    padding: 10px 20px;
-    transition: 0.3s;
-    
+  border: 1px solid white;
+  transition: 0.5s;
 }
 
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-me-text {
+  max-width: 500px;
+  width: 100%;
+}
+
+.about-me-text h1 {
+  margin-bottom: 50px;
+}
+
+.about-me {
+  color: white;
+}
+
+.about-me-img {
+  max-width: 300px;
+  width: 100%;
+}
+
+.about-me-img img {
+  width: 100%;
+  border-radius: 5px;
+}
