@@ -32,7 +32,7 @@ header {
 .menu li a {
   border: 1px solid black;
   border-radius: 5px;
-  padding: 10px 20px ;
+  padding: 10px 20px;
   transition: 0.5s;
 }
 
@@ -76,4 +76,11 @@ header {
 .about-me-img img {
   width: 100%;
   border-radius: 5px;
+  border: 2px dashed #fff;
+  transition: 1s;
+}
+
+.about-me-img img:hover {
+  border: 5px solid #fff;
+  transition: 1s;
 }
