@@ -31,3 +31,8 @@ a {
 span, h1 {
     color: #fff;
 }
+body {
+  background-color: rgb(58, 62, 67);
+  display: flex;
+  justify-content: center;
+}

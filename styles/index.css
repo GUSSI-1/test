@@ -1,8 +1,4 @@
-body {
-  background-color: rgb(58, 62, 67);
-  display: flex;
-  justify-content: center;
-}
+
 
 header {
   margin: 10px 5px;
@@ -42,6 +38,7 @@ header {
 }
 
 .about {
+  height: 75vh;
   width: 100%;
   display: flex;
   justify-content: center;
